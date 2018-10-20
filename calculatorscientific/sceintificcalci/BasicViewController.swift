@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  BasicViewController.swift
 //  sceintificcalci
 //
 //  Created by Venkatesh K on Saka 1940-07-27.
@@ -8,8 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class BasicViewController: UIViewController {
 
+    
     @IBOutlet weak var lblValue: UILabel!
     
     
@@ -179,5 +180,7 @@ class ViewController: UIViewController {
         return String(aryValues[0])
     }
     
+   
     
 }
+
